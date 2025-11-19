@@ -1,0 +1,47 @@
+
+import numpy as np
+
+"""arr = np.array([[1, 2, 3],
+                [4, 5, 6],
+                [7, 8, 9]])
+print("Original Array:\n", arr)
+
+diag = np.diagonal(arr)
+print("\nDiagonal elements:", diag)
+
+cumsum_arr = np.cumsum(arr)
+print("\nCumulative sum (flattened):", cumsum_arr)
+
+transpose_arr = np.transpose(arr)
+print("\nTranspose:\n", transpose_arr)
+
+mat_mul = np.dot(arr, transpose_arr)
+print("\nMatrix multiplication (arr × arr.T):\n", mat_mul)
+
+sqrt_arr = np.sqrt(arr)
+print("\nSquare root of elements:\n", sqrt_arr)
+
+sum_rows = np.sum(arr, axis=1)
+sum_cols = np.sum(arr, axis=0)
+print("\nSum of each row:", sum_rows)
+print("Sum of each column:", sum_cols)
+
+flat = arr.flatten()
+print("\nFlattened array:", flat)
+
+reshaped = arr.reshape(1, 9)
+print("\nReshaped array (1x9):\n", reshaped)
+
+identity = np.eye(4)
+print("\nIdentity matrix:\n", identity)
+
+cumprod_arr = np.cumprod(arr)
+print("\nCumulative product (flattened):", cumprod_arr)
+
+trace_val = np.trace(arr)
+print("\nTrace of matrix:", trace_val)"""
+
+
+
+num = np.random.randint(10000, 99999)
+print("Random 5-digit number:", num)
